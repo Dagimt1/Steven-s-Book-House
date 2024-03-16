@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #cbc6c6;
+}
+
+header {
+  background: rgb(180, 177, 177);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+header p {
+  margin: 10px 0 0;
+}
+header .title:hover {
+  color: black;
+}
+
+nav h2 {
+  font-size: 18px;
+  margin: 15px 0 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.book {
+  margin: 10px;
+  text-align: center;
+}
+.book figure {
+  margin: 0;
+}
+.book img {
+  width: 100px;
+  height: auto;
+}
+.book a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2e2f30;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+footer a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=input.css.map */

@@ -1,0 +1,80 @@
+$main-font: Arial, sans-serif;
+$background-color: #cbc6c6;
+$footer-background: #333;
+$footer-color: #fff;
+$text-color: #2e2f30;
+$header-background: rgb(180, 177, 177);
+$header-color: #fff;
+
+body {
+  font-family: $main-font;
+  margin: 0;
+  padding: 0;
+  background: $background-color;
+}
+
+header {
+  background: $header-background;
+  color: $header-color;
+  padding: 20px;
+  text-align: center;
+  h1 {
+    margin: 0;
+  }
+  p {
+    margin: 10px 0 0;
+  }
+  .title:hover {
+    color: black;
+  }
+}
+
+nav {
+  h2 {
+    font-size: 18px;
+    margin: 15px 0 0;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.book {
+  margin: 10px;
+  text-align: center;
+  figure {
+    margin: 0;
+  }
+  img {
+    width: 100px; 
+    height: auto;
+  }
+  a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: $text-color;
+  }
+}
+
+footer {
+  background: $footer-background;
+  color: $footer-color;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  a {
+    color: $footer-color;
+    text-decoration: none;
+    margin: 0 10px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
